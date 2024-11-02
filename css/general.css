@@ -1,0 +1,72 @@
+:root {
+    --bg-color: #fbf6e5;
+}
+
+@font-face {
+    font-family: "Hubballi";
+    src: url("../assets/font/Hubballi-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "WorkSans";
+    src: url("../assets/font/WorkSans-Black.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "WorkSans-semiBold";
+    src: url("../assets/font/WorkSans-SemiBold.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "WorkSans-bold";
+    src: url("../assets/font/WorkSans-Bold.ttf") format("truetype");
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--bg-color);
+    font-family: "Hubballi";
+    font-size: 1.1rem;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,
+body,
+div,
+section,
+figure,
+p,
+a,
+img,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+h2{
+    font-size: 1.7rem;
+}
